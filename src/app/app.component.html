@@ -2,7 +2,7 @@
 
 <div>
   <label for="length">Enter Length </label>
-  <input type="text" />
+  <input (input)="onChangeLength($event.target.value)" type="number" />
 </div>
 
 <div>
