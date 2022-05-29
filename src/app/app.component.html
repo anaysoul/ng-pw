@@ -49,8 +49,9 @@
           </label>
         </div>
       </div>
+      <br />
 
-      <div class="box columns is-centered">
+      <div class="columns is-centered">
         <button
           class="button is-link is-fullwidth"
           [disabled]="
@@ -62,7 +63,7 @@
         </button>
       </div>
 
-      <div class="box">
+      <div class="box" *ngIf="password">
         <label for="password">Your Password </label>
         <input class="input" type="text" name="" id="" [value]="password" />
       </div>
