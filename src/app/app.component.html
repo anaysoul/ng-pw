@@ -7,17 +7,17 @@
 
 <div>
   <label for="checkbox">Use Letters </label>
-  <input type="checkbox" name="" id="" />
+  <input (change)="onChangeUseLetters()" type="checkbox" name="" id="" />
 </div>
 
 <div>
   <label for="checkbox">Use Numbers </label>
-  <input type="checkbox" name="" id="" />
+  <input (change)="onChangeUseNumbers()" type="checkbox" name="" id="" />
 </div>
 
 <div>
   <label for="checkbox">Use Symbols </label>
-  <input type="checkbox" name="" id="" />
+  <input (change)="onChangeUseSymbols()" type="checkbox" name="" id="" />
 </div>
 
 <div>
@@ -28,4 +28,3 @@
   <label for="password">Your Password </label>
   <input type="text" name="" id="" [value]="password" />
 </div>
-{{ password }}
